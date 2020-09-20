@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-09-20T14:35:37.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="JvcaLKBPV9fg-4HVQCUE" version="13.7.3" type="github">
-  <diagram id="Pm64c5Zq19SC5vOLzroM" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-09-20T14:50:33.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="l_zb8K-FGXiJXkATnUQG" version="13.7.3" type="github" pages="2">
+  <diagram id="Pm64c5Zq19SC5vOLzroM" name="SparkPartitions">
     <mxGraphModel dx="2222" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -264,6 +264,66 @@
         </mxCell>
         <mxCell id="wynXxjSZVvIi7DC9lOgX-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wynXxjSZVvIi7DC9lOgX-29" target="wynXxjSZVvIi7DC9lOgX-61">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="d6bHab6OBzgO1tD8mC2z" name="SparkTransformations">
+    <mxGraphModel dx="2431" dy="1489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="J7ArQfMAL7KPYdaqgB9K-0" />
+        <mxCell id="J7ArQfMAL7KPYdaqgB9K-1" parent="J7ArQfMAL7KPYdaqgB9K-0" />
+        <mxCell id="f6NrKhlblW8NClV29qWa-12" value="SPARK TRANSFORMATIONS" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#EAFFE9;verticalAlign=top;fontSize=20;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="J7ArQfMAL7KPYdaqgB9K-1">
+          <mxGeometry x="-180" y="-170" width="1350" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-6" value="SELECT(age,gender,country,state) FROM DF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J7ArQfMAL7KPYdaqgB9K-1" source="J7ArQfMAL7KPYdaqgB9K-2" target="f6NrKhlblW8NClV29qWa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J7ArQfMAL7KPYdaqgB9K-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Timestamp&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Age&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Gender&lt;/th&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;State&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;2014-08-27 11:29:31&lt;/td&gt;&lt;td&gt;37&lt;/td&gt;&lt;td&gt;Female&lt;/td&gt;&lt;td&gt;United States&lt;/td&gt;&lt;td&gt;IL&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;2014-08-27 11:29:37&lt;/td&gt;&lt;td&gt;44&lt;/td&gt;&lt;td&gt;M&lt;/td&gt;&lt;td&gt;United States&lt;br&gt;&lt;/td&gt;&lt;td&gt;IN&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;2014-08-27 11:29:42&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;Canada&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;2014-08-27 11:29:47&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;United Kingdom&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2014-08-27 11:30:22&lt;br&gt;&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;United States&lt;br&gt;&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=center;" vertex="1" parent="J7ArQfMAL7KPYdaqgB9K-1">
+          <mxGeometry x="-80" y="100" width="550" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-0" value="" style="group;strokeColor=#82b366;fillColor=#B9E0A5;" vertex="1" connectable="0" parent="J7ArQfMAL7KPYdaqgB9K-1">
+          <mxGeometry x="70" y="-120" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-1" value="DRIVER" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="f6NrKhlblW8NClV29qWa-0">
+          <mxGeometry width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-2" value="SPARK SESSION" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="f6NrKhlblW8NClV29qWa-0">
+          <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.548;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J7ArQfMAL7KPYdaqgB9K-1" source="f6NrKhlblW8NClV29qWa-1" target="J7ArQfMAL7KPYdaqgB9K-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-4" value="spark.read.csv()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f6NrKhlblW8NClV29qWa-3">
+          <mxGeometry x="-0.2197" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.56;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J7ArQfMAL7KPYdaqgB9K-1" source="f6NrKhlblW8NClV29qWa-5" target="f6NrKhlblW8NClV29qWa-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="460" />
+              <mxPoint x="515" y="50" />
+              <mxPoint x="868" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-9" value="filter(age&amp;lt;40)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f6NrKhlblW8NClV29qWa-8">
+          <mxGeometry x="0.2746" relative="1" as="geometry">
+            <mxPoint x="78.24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-5" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Age&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Gender&lt;/th&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;State&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;37&lt;/td&gt;&lt;td&gt;Female&lt;/td&gt;&lt;td&gt;United States&lt;/td&gt;&lt;td&gt;IL&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;44&lt;/td&gt;&lt;td&gt;M&lt;/td&gt;&lt;td&gt;United States&lt;br&gt;&lt;/td&gt;&lt;td&gt;IN&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;Canada&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;United Kingdom&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;United States&lt;br&gt;&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=center;" vertex="1" parent="J7ArQfMAL7KPYdaqgB9K-1">
+          <mxGeometry x="-70" y="370" width="550" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-11" value="groupBy(country).count()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J7ArQfMAL7KPYdaqgB9K-1" source="f6NrKhlblW8NClV29qWa-7" target="f6NrKhlblW8NClV29qWa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-7" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Age&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Gender&lt;/th&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;State&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;37&lt;/td&gt;&lt;td&gt;Female&lt;/td&gt;&lt;td&gt;United States&lt;/td&gt;&lt;td&gt;IL&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;Canada&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;United Kingdom&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;Male&lt;/td&gt;&lt;td&gt;United States&lt;br&gt;&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=center;" vertex="1" parent="J7ArQfMAL7KPYdaqgB9K-1">
+          <mxGeometry x="560" y="110" width="550" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f6NrKhlblW8NClV29qWa-10" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Count&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;United States&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;Canada&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;United Kingdom&lt;br&gt;&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=center;" vertex="1" parent="J7ArQfMAL7KPYdaqgB9K-1">
+          <mxGeometry x="560" y="370" width="550" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
